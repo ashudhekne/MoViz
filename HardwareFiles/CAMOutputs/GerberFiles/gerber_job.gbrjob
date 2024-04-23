@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-08-17T19:10:20Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.04,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "UWBFlat_v01"
+        },
+        "Owner": "Ashutosh Dhekne <dhekne@gatech.edu>",
+        "Size": {
+            "X": 34.29,
+            "Y": 45.72
+        }
+    }
+}

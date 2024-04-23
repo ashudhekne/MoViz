@@ -1,0 +1,122 @@
+# Created by Ultra Librarian Gold 8.3.267 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SW4_1825910-G_TEC.pac';
+Change Drill 39;
+Pad '1' Square 0 59 R0 (-256 177);
+Change Drill 39;
+Pad '3' Round 0 59 R0 (-256 0);
+Change Drill 39;
+Pad '4' Round 0 59 R0 (0 0);
+Change Drill 39;
+Pad '2' Round 0 59 R0 (0 177);
+Layer 21;
+Wire 6 (-231 -34) (-25 -34);
+Wire 6 (-5 42) (-5 135);
+Wire 6 (-25 212) (-214 212);
+Wire 6 (-251 135) (-251 42);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-279 212);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-196 64);
+Layer 51;
+Wire 6 (-246 158) (-246 197);
+Wire 6 (-246 197) (-275 197);
+Wire 6 (-275 197) (-275 158);
+Wire 6 (-275 158) (-246 158);
+Wire 6 (-246 -20) (-246 20);
+Wire 6 (-246 20) (-275 19);
+Wire 6 (-275 19) (-275 -20);
+Wire 6 (-275 -20) (-246 -20);
+Wire 6 (-10 20) (-10 -20);
+Wire 6 (-10 -20) (19 -20);
+Wire 6 (19 -20) (19 20);
+Wire 6 (19 20) (-10 20);
+Wire 6 (-10 197) (-10 158);
+Wire 6 (-10 158) (19 158);
+Wire 6 (19 158) (19 197);
+Wire 6 (19 197) (-10 197);
+Wire 6 (-246 -29) (-10 -29);
+Wire 6 (-10 -29) (-10 207);
+Wire 6 (-10 207) (-246 207);
+Wire 6 (-246 207) (-246 -29);
+Wire 6 (-116 207) -180 (-140 207);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-233 165);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-257 64);
+Layer 27;
+
+Edit 'SW4_1825910.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Both 0 (100 0)
+Pin '2' Pas None Middle R0 Both 0 (100 -300)
+Pin '3' Pas None Middle R180 Both 0 (1500 0)
+Pin '4' Pas None Middle R180 Both 0 (1500 -300)
+Wire 6 (300 200) (300 -500);
+Wire 6 (300 -500) (1300 -500);
+Wire 6 (1300 -500) (1300 200);
+Wire 6 (1300 200) (300 200);
+Wire 6 (300 0) (475 0);
+Wire 6 (300 -300) (475 -300);
+Wire 6 (1300 0) (1125 0);
+Wire 6 (1300 -300) (1125 -300);
+Wire 6 (500 -25) (500 -275);
+Wire 6 (1100 -25) (1100 -275);
+Wire 6 (1100 -150) (925 -150);
+Wire 6 (500 -150) (675 -150);
+Wire 6 (725 -150) (900 -50);
+Wire 5 (525 0) -180 (475 0);
+Wire 5 (475 0) -180 (525 0);
+Wire 5 (525 -300) -180 (475 -300);
+Wire 5 (475 -300) -180 (525 -300);
+Wire 5 (1075 -300) -180 (1125 -300);
+Wire 5 (1125 -300) -180 (1075 -300);
+Wire 5 (1075 0) -180 (1125 0);
+Wire 5 (1125 0) -180 (1075 0);
+Wire 5 (725 -150) -180 (675 -150);
+Wire 5 (675 -150) -180 (725 -150);
+Wire 5 (875 -150) -180 (925 -150);
+Wire 5 (925 -150) -180 (875 -150);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (614 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (589 259);
+
+Edit '2-1825910-7.dev';
+Prefix 'SW';
+Description '';
+Value Off;
+Add SW4_1825910 'A' Next  0 (0 0);
+Package 'SW4_1825910-G_TEC';
+Technology '';
+Attribute Copyright 'Copyright (C) 2016 Accelerated Designs. All rights reserved';
+Attribute Vendor 'TE Connectivity';
+Attribute Manufacturer_Part_Number '2-1825910-7';
+Attribute Product_Type 'Switch';
+Attribute TE_Part_Number '2-1825910-7';
+Attribute Switch_Type 'Tactile Switches';
+Attribute Configuration__Pole-Throw_ 'Single Pole - Single Throw';
+Attribute Max_Switching_Current '-';
+Attribute Max_Switching_Voltage_AC_ '-';
+Attribute Description 'FSM14JH=6MM TACT SWITCH, HIGH TEMP';
+Attribute Built_By 'EMA_UL_Team';
+Attribute SourceLibrary 'TE_Connectivity-2018-03-16';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
